@@ -47,3 +47,12 @@
 .ex-6-img:hover{
     filter: grayscale();
 }
+
+.ex-7-img{
+    transition: 2s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(.9) opacity(.5);
+}
+
