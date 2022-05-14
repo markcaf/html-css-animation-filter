@@ -30,3 +30,20 @@
     opacity: 0;
 }
 
+.ex-5-square{
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    width: 80px;
+    height: 80px;
+}
+
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+}
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
