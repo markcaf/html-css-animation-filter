@@ -75,7 +75,7 @@
     transform: scale(1.5);
 }
 
-/* Creazione dell'animazione keyframes chiamata loading */
+/* Animazione keyframes chiamata loading e richiamata nella dichiarazione abbreviata*/
 .ex-10-icon {
     animation: loading 1.5s linear infinite;
 }
@@ -84,3 +84,19 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover{
+    animation: loading-hover 1.5s linear infinite;
+}
+@keyframes loading-hover {
+    0% {
+        transform: rotate()
+    }
+    75% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
