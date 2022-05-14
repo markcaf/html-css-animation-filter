@@ -53,6 +53,14 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(.9) opacity(.5);
+    filter: grayscale(.9) blur(2px);
 }
 
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(.9) grayscale(.5);
+    border-radius: 20px;
+}
