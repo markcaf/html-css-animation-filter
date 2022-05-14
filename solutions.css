@@ -74,3 +74,13 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* Creazione dell'animazione keyframes chiamata loading */
+.ex-10-icon {
+    animation: loading 1.5s linear infinite;
+}
+@keyframes loading {
+    0% {
+        transform: rotate(1turn);
+    }
+}
