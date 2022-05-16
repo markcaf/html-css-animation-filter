@@ -160,7 +160,7 @@
     }
 }
 .ex-13-bottom-white {
-    animation: bottom-animation-full 3s linear;
+    animation: bottom-animation-full 3s linear infinite;
 }
 @keyframes bottom-animation-full {
     0% {
@@ -168,11 +168,11 @@
         right: 20%;
     }
     30% {
-        right: calc(100% - 30px);
+        right: calc(100% - 35px);
         bottom: -10px;
     }
     45% {
-        right: calc(100% - 30px);
+        right: calc(100% - 35px);
         bottom: 100%;
     }
     75% {
@@ -188,5 +188,3 @@
         right: 20%;
     }
 }
-/* Es.13 da controllare per blocco del loop */
-/* Da applicare con hover una sola volta o in loop? */
